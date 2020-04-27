@@ -15,3 +15,17 @@ A comparison of both variants can be found in the files "Filter_5kHz_AC.jpg" and
 
 ![Due-DDS](https://github.com/papamidas/DDS_due_simple_DM1CR/blob/master/Documentation/20200426_172746_600x800.jpg "Due-DDS+Filter+ADALM2000")
 
+The user interface is primitive and works with the Arduino serial monitor (115200 bd):
+Enter 'F', 'S', 'P', 'A' or 'O' and the Due will interpret the following number entries as new values for the output frequency ('F'), sample frequency ('S'), sample period ('P'), amplitude ('A') or offset value ('O').
+Entering other letters leads to a continuous output of some interesting values of a DDS, including the phase register, every half of a second.
+
+Try sampling frequencies of up to about 100000 samples per second, higher values will overload the processor.
+If you have a classic scope, a USB scope and/or a spectrum analyzer, connect the DAC output and the filter output to your scope and watch both outputs simultaneously (or one after the other, if you do not have a 2-channel-device) at different sampling frequencies, different output frequencies and so on.
+Test your knowledge of digital signal processing by explaining to yourself the phenomenas that you see.
+
+Oversampling, undersampling, DDS resolution, aliasing, DAC resolution, SFDR, sinc response, ...(you name it); all these things can be explored here in practice by making some measurements and interpreting the results.
+
+Have fun! 73 papamidas (DM1CR)
+
+
+ 
