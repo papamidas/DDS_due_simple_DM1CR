@@ -13,3 +13,5 @@ Luckily the DAC1 output still worked, so I increased all R's by a factor of 10 a
 The filter still works with these values, and it works fine! In some sense it works even better than before.
 A comparison of both variants can be found in one of the files.
 
+![Due-DDS](https://github.com/papamidas/DDS_due_simple_DM1CR/blob/master/Documentation/20200426_172746_600x800.jpg "Due-DDS+Filter+ADALM2000")
+
