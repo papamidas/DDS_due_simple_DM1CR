@@ -11,7 +11,7 @@ Later on I found this link:
 https://microchipsupport.force.com/s/article/Drive-strength-of-DAC-pins-on-SAM3X-devices
 Luckily the DAC1 output still worked, so I increased all R's by a factor of 10 and decreased all C's by the same factor and connected the filter to DAC1.
 The filter still works with these values, and it works fine! In some sense it works even better than before.
-A comparison of both variants can be found in one of the files.
+A comparison of both variants can be found in the files "Filter_5kHz_AC.jpg" and "Filter_5kHz.jpg" together with the LTSpice simulation file "Filter_5kHz.asc" in the "Documentation"-Subfolder.
 
 ![Due-DDS](https://github.com/papamidas/DDS_due_simple_DM1CR/blob/master/Documentation/20200426_172746_600x800.jpg "Due-DDS+Filter+ADALM2000")
 
